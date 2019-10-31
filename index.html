@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="mahasaku - mahasiswa unindra">
+  <meta name="author" content="developer - mahasaku">
+
+  <title>Mahasaku | Program Pinjaman untuk Mahasiswa</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
+  <link href="vendor/slick/slick.css" rel="stylesheet">
+  <link href="vendor/slick/slick-theme.css" rel="stylesheet">
+  <link href="vendor/fontawesome/css/all.min.css" rel="stylesheet">
+
+
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="img/icon.png" sizes="16x16">
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark-nav fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger header-brand" href="#page-top">Mahasaku</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger nav-sub-item" href="#about">Pinjaman</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger nav-sub-item" href="#services">Cara Kerja</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger nav-sub-item" href="#contact">Tentang Kami</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger nav-sub-item bullet-white" type="button"  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Login</a>
+            <div class="dropdown">
+            
+                <!-- Login -->
+                <div class="dropdown-menu mt-3" id="formLogin">
+                    <div class="row">
+                        <div class="container-fluid">
+                            <form class="needs-validated">
+                                <div class="input-group input-group-sm mb-3" data-validate="Valid email is required: ex@abc.xyz">
+                                    <div class="input-group-prepend">
+                                      <span class="input-group-text text-small border-0 bg-custom-grey" id="basic-addon1"> <i class="fas fa-envelope"></i></span>
+                                    </div>
+                                    <input type="email" class="form-control border-0 bg-light-300 text-body bg-custom-grey" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1" value="" required ="">
+                                </div>
+                            
+                                <div class="input-group input-group-sm mb-2" data-validate="Valid email is required: ex@abc.xyz">
+                                    <div class="input-group-prepend">
+                                      <span class="input-group-text text-small border-0 bg-custom-grey" id="basic-addon1"><i class="fas fa-lock"></i></span>
+                                    </div>
+                                    <input type="password" id="password" class="form-control border-0  text-body bg-custom-grey" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1" value="" required="">
+                                </div>
+                               <div class="custom-control custom-checkbox mb-2 ">
+                                  <input type="checkbox" class="custom-control-input" id="customControlValidation1">
+                                  <label class="custom-control-label pt-1 text-muted" for="customControlValidation1">Remember me</label>
+                                </div>
+                                <button type="submit" id="btnLogin" class="btn btn-info btn-sm btn-block "><b>Login</b></button>
+                            </form>
+                        </div>
+                        
+                    </div>
+
+                    <p class="text-lg-center font-weight-lighter text-muted mt-4">~ ~ ~ Or Login with ~ ~ ~ </p>
+                    <button type="button" class="btn btn-primary btn-sm font-weight-bold w-49"><i class="fab fa-facebook-square"></i> Facebook</button>
+                    <button type="button" class="btn btn-success border-1 btn-sm border border-success font-weight-bold w-50"><i class="fab fa-google"></i> Google</button>  
+                </div>
+                <!-- End Login-->
+              </div>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link js-scroll-trigger nav-sub-item bullet-green" href="#contact">Daftar</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-primary text-white content-one header-image">
+    <div class="container text-center ">
+       
+      <h1 >Program Pinjaman untuk Mahasiswa</h1>
+      <p class="lead">Memberikan <b class="badge badge-primary">Kepastian</b> Agar Anda Tetap Menjadi <b class="badge badge-success">Terbaik</b></p>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>About this page</h2>
+          <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
+          <ul>
+            <li>Clickable nav links that smooth scroll to page sections</li>
+            <li>Responsive behavior when clicking nav links perfect for a one page website</li>
+            <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
+            <li>Minimal custom CSS so you are free to explore your own unique design options</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="bg-info how-to-image">
+    <div class="container ">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-white">
+          <h2>Cara <strong class="small-brand">Kerja</strong></h2>
+          <p class="lead">Platform online Peer to peer landing <strong class="small-brand">P2P Mahasaku</strong> dilakukan secara transparan, efisien dan menawarkan nilai tambah bagi peminjam yang mencari pinjaman jangka pendek.
+          Peminjam menerima pinjaman yang dibutuhkan, sehingga menjamin peminjam mendapatkan potensi kebaikan pada kontribusi yang mereka pilih selama periode tertentu.
+          </p>
+        </div>
+      </div>
+      <div class="card-group" style="margin-top:50px">
+        <div class="card">
+          <div class="card-body">
+            <img src="./img/merchant.png" class="card-img-top img-45 " alt="1">
+            <img src="./img/arrow.afdf5f68.svg" class="card-img-top img-70 ml-3">
+            <div class="mt-3">
+              <h5 class="card-title text-center small-brand">Daftar</h5>
+              <p class="card-text">Daftar online hari ini<br/>
+              <small class="text-muted">Hanya 5 menit</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <img src="./img/file.png" class="card-img-top img-45" alt="1">
+            <img src="./img/arrow.afdf5f68.svg" class="card-img-top img-70 ml-3">
+            <div class="mt-3">
+              <h5 class="card-title text-center small-brand">Approval Data</h5>
+              <p class="card-text">Niat baik Anda<br/>
+              <small class="text-muted">Akan kami Cross Check</small></p>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="card">
+          <div class="card-body">
+            <img src="./img/cheap.png" class="card-img-top img-45" alt="1">
+            <img src="./img/arrow.afdf5f68.svg" class="card-img-top img-70 ml-3">
+            <div class="mt-3">
+              <h5 class="card-title text-center small-brand">Kelola Dana Anda</h5>
+              <p class="card-text">Kelola waktu Anda<br/>
+              <small class="text-muted">Tentukan pelunasan</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <img src="./img/bank.png" class="card-img-top img-45" alt="1">
+            <img src="./img/arrow.afdf5f68.svg" class="card-img-top img-70 ml-3">
+            <div class="mt-3">
+              <h5 class="card-title text-center small-brand">Ayo Pelunasan</h5>
+              <p class="card-text">Program baik ini<br/>
+              <small class="text-muted">Butuh dukunganmu</small></p>
+            </div>
+          </div>      
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <center><img src="./img/trekking.png" class="card-img-top img-45" alt="1"></center>
+            <div class="mt-3">
+              <h5 class="card-title text-center small-brand">Benefit Mahasaku</h5>
+              <p class="card-text">Rasakan dan Sebarkan<br/>
+              <small class="text-muted">manfaat baik program ini</small></p>
+            </div>
+          </div>      
+        </div>
+      </div>
+      <!-- end card-->
+    </div>
+  </section>
+
+  <section id="contact" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Mengapa <strong class="small-brand">Mahasaku</strong>?</h2>
+          <p class="lead"><strong class="small-brand">Mahasaku</strong> adalah platform online peminjaman uang yang tidak berlisensi resmi.
+            Hadir untuk memberikan solusi layanan digital yang menarik untuk mahasiswa indonesia. 
+            Fokus Utama kami adalah menyederhanakan produk keuangan umum dan memberikannya kepada mahasiswa indonesia.
+          </p>
+        </div>
+        
+        <div class="card-deck" style="margin-top: 30px;">
+            <div class="card card-borderless">
+              <div class="card-body">
+                  <h6 class="card-title ">Resmi tidak terdaftar</h6>
+                  <p class="card-text small">Aplikasi <strong class="small-brand">Mahasaku</strong> belum di daftarkan ke lembaga penjamin resmi</p>
+                  <img src="./img/ojk.png" class="card-img-bottom thumbnail-185" alt="Tidak terdaftar di OJK">
+               </div>
+            </div>
+            <div class="card card-borderless">
+              <div class="card-body">
+                  <h6 class="card-title ">Indikasi Tidak Aman</h6>
+                  <p class="card-text small">Keamanan belum teruji secara pasti pada implementasi real.</p>
+                  <img src="./img/hss-alert-icon.png" class="card-img-bottom img-70"  alt="Tidak Aman">
+               </div>
+            </div>
+            <div class="card card-borderless">
+              <div class="card-body">
+                  <h6 class="card-title ">Mudah & Fleksibel</h6>
+                  <p class="card-text small">Cukup isi formulir pendaftaran sederhana secara online di situs web kami dari perangkat Anda.</p>
+                  <img src="./img/register.png" class="card-img-bottom img-70" >
+               </div>
+            </div>
+          </div>
+      </div>
+      <!-- row -->
+      <hr class="my-4 bg-info">
+      <div class="row mt-3 ">
+        <div class="col-lg-12">
+          <h4><strong class="small-brand">Mahasaku</strong> & Mahasiswa</h4>
+          <div class="center slider pt-3">
+            <div>
+              <img src="http://placehold.it/350x300?text=1">
+            </div>
+            <div>
+              <img src="http://placehold.it/350x300?text=2">
+            </div>
+            <div>
+              <img src="http://placehold.it/350x300?text=3">
+            </div>
+            <div>
+              <img src="http://placehold.it/350x300?text=4">
+            </div>
+            <div>
+              <img src="http://placehold.it/350x300?text=5">
+            </div>
+            <div>
+              <img src="http://placehold.it/350x300?text=6">
+            </div>
+            <div>
+              <img src="http://placehold.it/350x300?text=7">
+            </div>
+            <div>
+              <img src="http://placehold.it/350x300?text=8">
+            </div>
+            <div>
+              <img src="http://placehold.it/350x300?text=9">
+            </div>
+          </div>
+        
+      </div>
+      <!-- end row-->
+    </div>
+  </section>
+
+  
+  <!-- Footer -->
+  <footer class="py-3 bg-dark">
+    <div class="container">
+        <div class="row mx-md-n5">
+            <div class="col-sm m-2">
+                <p class="text-left text-white font-small"><span class="small-brand">Mahasaku</span><span class="small"> &copy; 2019</span></p>
+                <p class="text-white small">
+                   <strong>P2P Mahasaku</strong> adalah Penyedia Layanan Pinjaman berbasis Teknologi Informasi,
+                   tidak terdaftar secara resmi di Otoritas Jasa Keuangan(OJK), 
+                   yang berarti bahwa layanan kami tidak dapat dipercaya. 
+                </p>  
+              </div>
+            <div class="col-sm m-2">
+                <p class=" text-left text-white">
+                  <b>PT. Akar Kelapa Philosophy</b> 
+                  <p class="text-white text-sm-left small">Jl. Nangka Raya No.58 C, RT.5/RW.5, Tanjung barat
+                    <br/> Kec. Jagakarsa, Kota Jakarta Selatan, DKI Jakarta 12530
+                  </p>
+                  <span class="small text-white">Phone:</span>
+                  <p class="text-large  text-white"><strong>+6221435839</strong></p>
+                  
+                  <span class="small text-white">E-mail:</span>
+                  <p class="text-large text-white"><strong>ayonyicil@mahasaku.com</strong></p>
+               
+                </p>
+            </div>
+            <div class="col-sm m-2">
+              <p class="small text-white">Tidak Terdaftar di:</p>
+              <img src="./img/ojk.png" class="thumbnail-185">
+            </div>
+          </div>
+     </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/scrolling-nav.js"></script>
+  <script src="vendor/slick/slick.min.js"></script>
+  <script src="js/custom.js"></script>
+ 
+</body>
+</html>

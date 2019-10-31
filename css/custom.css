@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'roboto-bold'; /*a name to be used later*/
+    src: url('./font/roboto/Roboto-Bold.ttf'); /*URL to font*/
+}
+
+
+@font-face {
+    font-family: 'GothamRounded';
+    font-style: normal;
+    font-weight: bold;
+    src:
+      local('GothamRounded'),
+      url('./font/gothamrnd/gotham-rounded-bold.otf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'GothamRounded';
+    font-style: normal;
+    font-weight: normal;
+    src:
+      local('GothamRounded'),
+      url('./font/gothamrnd/gotham-rounded-medium.otf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'GothamRounded';
+    font-style: normal;
+    font-weight: 100;
+    src:
+      local('GothamRounded'),
+      url('./font/gothamrnd/gotham-rounded-light.otf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'GothamRoundedBook';
+    font-style: normal;
+    font-weight: normal;
+    src:
+      local('GothamRoundedBook'),
+      url('./font/gothamrnd/gotham-rounded-book.otf') format('truetype');
+  }
+  
+  
+body{font-family: 'GothamRoundedBook' !important}
+.header-brand{color:#FF8C00 !important; font-size: 2rem; font-weight: 600; font-family: 'roboto-bold';   text-shadow: 1px 1px rgb(201, 90, 16);}
+.content-one{background-color: #0078FF !important}
+.nav-sub-item{font-size: 14px;color: #3835357d !important;margin:10px}
+.nav-sub-item:hover{color:black !important;}
+.nav-sub-item.bullet-white{    
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 5px 30px;
+    font-weight: bold;
+}
+.nav-sub-item.bullet-white:hover{box-shadow: 0 2px 3px 1px gray}    
+
+.nav-sub-item.bullet-green{    
+        border: 1px solid #09ef34;
+        border-radius: 5px;
+        background-color: #09ef34;
+        padding: 5px 40px;
+        color:black;
+        font-weight: bold;
+}
+.nav-sub-item.bullet-green:hover{box-shadow: 0 2px 3px 1px gray}    
+
+.header-image {
+    background-image: linear-gradient(rgba(17, 183, 248, 0.432), rgba(3, 72, 121, 0.425)), url("../img/cumulus-cloud.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+header{padding: 21% 0 !important;}
+.text-bg-orange{background-color: #FF8C00;padding: 5px; color: white; border-radius: 5px;}
+.small-brand{color:#FF8C00 !important; font-weight: 800; font-family: 'roboto-bold';}
+.brand{color:#FF8C00 !important; font-weight: 800; font-family: 'roboto-bold';}
+.bg-dark{background-color: #1a73e8 !important; }
+.bg-dark-nav{background-color: #f2f5fa !important; }
+
+.thumbnail-185{width: 185px;}
+.navbar{box-shadow:0 0 10px 0 black}
+.card-borderless{border:1px solid #fff !important}
+.img-70{width:70px}
+.img-45{width:45px}
+.how-to-image {
+  background-image: linear-gradient(rgba(35, 133, 76, 0.664), rgba(10, 72, 117, 0.774)), url("../img/green-leaves-pattern-background-natural-260nw-714546541.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: .5;
+}
+
+.slick-current {
+  opacity: 1;
+}
+
+#formLogin{
+  padding: 15px; 
+  min-width:280px;
+  font-size: 12px;
+ }
+
+ .bg-custom-grey, .bg-custom-grey:focus{background-color: #e6e6e6}
