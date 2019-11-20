@@ -51,6 +51,7 @@ body{font-family: 'GothamRoundedBook' !important}
     border-radius: 5px;
     background-color: #fff;
     padding: 5px 30px;
+    color:black;
     font-weight: bold;
 }
 .nav-sub-item.bullet-white:hover{box-shadow: 0 2px 3px 1px gray}    
@@ -64,6 +65,17 @@ body{font-family: 'GothamRoundedBook' !important}
         font-weight: bold;
 }
 .nav-sub-item.bullet-green:hover{box-shadow: 0 2px 3px 1px gray}    
+.nav-sub-item.bullet-green-active{
+  border-radius: 5px;
+  background-color: #09ef34;
+  color:black !important;
+  padding: 5px 40px;
+  font-weight: bold;
+  cursor: default;
+  box-shadow: 0 2px 3px 2px #17c550;
+} 
+.nav-sub-item.bullet-green-active:hover{color: black !important;}    
+
 
 .header-image {
     background-image: linear-gradient(rgba(17, 183, 248, 0.432), rgba(3, 72, 121, 0.425)), url("../img/cumulus-cloud.jpg");
@@ -73,7 +85,33 @@ body{font-family: 'GothamRoundedBook' !important}
     position: relative;
 }
 
+
+.header-pinjaman-image {
+  background-image: linear-gradient(rgba(17, 183, 248, 0.432), rgba(3, 72, 121, 0.425)), url("../img/students/IMG-20180719-WA0031.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.header-cara-kerja-image {
+  background-image: linear-gradient(rgba(17, 183, 248, 0.432), rgba(3, 72, 121, 0.425)), url("../img/students/photo_2019-11-16_04-55-20.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.header-tentang-kami-image {
+  background-image: linear-gradient(rgba(17, 183, 248, 0.432), rgba(3, 72, 121, 0.425)), url("../img/students/IMG-20190409-WA0021.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 header{padding: 21% 0 !important;}
+header#banner{padding: 8% 0 !important;}
 .text-bg-orange{background-color: #FF8C00;padding: 5px; color: white; border-radius: 5px;}
 .small-brand{color:#FF8C00 !important; font-weight: 800; font-family: 'roboto-bold';}
 .brand{color:#FF8C00 !important; font-weight: 800; font-family: 'roboto-bold';}
@@ -85,6 +123,9 @@ header{padding: 21% 0 !important;}
 .card-borderless{border:1px solid #fff !important}
 .img-70{width:70px}
 .img-45{width:45px}
+.img-20-percentage{width:20% !important}
+.img-30-percentage{width:30% !important}
+.img-35-percentage{width:35% !important}
 .how-to-image {
   background-image: linear-gradient(rgba(35, 133, 76, 0.664), rgba(10, 72, 117, 0.774)), url("../img/green-leaves-pattern-background-natural-260nw-714546541.jpg");
   background-position: left;
@@ -92,6 +133,16 @@ header{padding: 21% 0 !important;}
   background-size: cover;
   position: relative;
 }
+
+.register-image {
+  background-image: linear-gradient(rgba(35, 133, 76, 0.664), rgba(10, 72, 117, 0.774)), url("../img/students/IMG_20190427_104209.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
 
 .slick-slide {
   margin: 0px 20px;
@@ -126,4 +177,121 @@ header{padding: 21% 0 !important;}
   font-size: 12px;
  }
 
+
+#formLogin .form-control:focus {
+  border-color: #33cabb;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px){
+  #formLogin.show .nav-item.show {
+    display: block;
+  }
+}
+
  .bg-custom-grey, .bg-custom-grey:focus{background-color: #e6e6e6}
+
+ .embed-responsive .card-img-top {
+  object-fit: cover;
+}
+
+.bg-light-v2{background-color: #f8f9fa4d !important;}
+
+
+.stepwizard-step p {
+  margin-top: 10px;
+}
+
+.stepwizard-row {
+  display: table-row;
+}
+
+.stepwizard {
+  display: table;
+  width: 100%;
+  position: relative;
+}
+
+.stepwizard-step button[disabled] {
+  opacity: 1 !important;
+  filter: alpha(opacity=100) !important;
+}
+
+.stepwizard-row:before {
+  top: 14px;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  z-order: 0;
+
+}
+
+.stepwizard-step {
+  display: table-cell;
+  text-align: center;
+  position: relative;
+}
+
+.btn-circle {
+width: 30px;
+height: 30px;
+text-align: center;
+padding: 6px 0;
+font-size: 12px;
+line-height: 1.428571429;
+border-radius: 15px;
+font-weight:800;
+}
+
+.btn-circle.disbled{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+  color:grey;
+  }
+
+.form-control:invalid{
+  padding: 5px !important;
+}
+
+
+.invalid-feedback{
+  color:#860a0a !important;
+}
+
+.nav-sub-item.text-dark{color:black !important}
+
+.suggest-register-image {
+  background-image: linear-gradient(rgba(17, 183, 248, 0.432), rgba(3, 72, 121, 0.425)), url("../img/amazing-Green-Leaf-Background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.suggest-register-image-02 {
+  background-image: linear-gradient(rgba(17, 183, 248, 0.432), rgba(3, 72, 121, 0.425)), url("../img/students/photo_2019-11-14_15-32-14.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+ 
+.suggest-register-image-03 {
+  background-image: linear-gradient(rgba(17, 183, 248, 0.432), rgba(3, 72, 121, 0.425)), url("../img/students/IMG_20180719_125014.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.input-p-sm{
+  padding: 20px !important; 
+}

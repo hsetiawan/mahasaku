@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="mahasaku - mahasiswa unindra">
+  <meta name="author" content="developer - mahasaku">
+
+  <title>Mahasaku | Daftar menjadi teman</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="library/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
+  <link href="library/slick/slick.css" rel="stylesheet">
+  <link href="library/slick/slick-theme.css" rel="stylesheet">
+  <link href="library/fontawesome/css/all.min.css" rel="stylesheet">
+
+
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="img/icon.png" sizes="16x16">
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark-nav fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger header-brand" href="index.html">Mahasaku</a>
+      <button class="navbar-toggler bg-info" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger nav-sub-item" href="pinjaman-detail.html">Pinjaman</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger nav-sub-item" href="cara-kerja.html">Cara Kerja</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger nav-sub-item" href="tentang-kami.html">Tentang Kami</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link js-scroll-trigger nav-sub-item bullet-white" type="button"  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Login</a>
+            <div class="dropdown nav navbar-nav navbar-left ">
+            
+                <!-- Login -->
+                <div class="dropdown-menu dropdown-menu-left mt-3" id="formLogin">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <form class="needs-validated">
+                                <div class="input-group input-group-sm mb-3" data-validate="Valid email is required: ex@abc.xyz">
+                                    <div class="input-group-prepend">
+                                      <span class="input-group-text text-small border-0 bg-custom-grey" id="basic-addon1"> <i class="fas fa-envelope"></i></span>
+                                    </div>
+                                    <input type="email" class="form-control  border-0 bg-light-300 text-body bg-custom-grey" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1" value="" required ="">
+                                </div>
+                          
+                                <div class="input-group input-group-sm mb-2">
+                                    <div class="input-group-prepend">
+                                      <span class="input-group-text text-small border-0 bg-custom-grey" id="basic-addon1"><i class="fas fa-lock"></i></span>
+                                    </div>
+                                    <input type="password" id="password" class="form-control border-0  text-body bg-custom-grey" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1" value="" required="">
+                                </div>
+                               <div class="custom-control custom-checkbox mb-2 ">
+                                  <input type="checkbox" class="custom-control-input" id="customControlValidation1">
+                                  <label class="custom-control-label pt-1 text-muted" for="customControlValidation1">Remember me</label>
+                                </div>
+                                <button type="submit" id="btnLogin" class="btn btn-info btn-sm btn-block "><b>Login</b></button>
+                            </form>
+                        </div>
+                        
+                    </div>
+
+                    <p class="text-lg-center font-weight-lighter text-muted mt-4">Or Login with </p>
+                    <button type="button" class="btn btn-primary btn-sm font-weight-bold float-left"><i class="fab fa-facebook-square"></i> Facebook</button>
+                    <button type="button" class="btn btn-success border-1 btn-sm border border-success w-50 font-weight-bold float-right"><i class="fab fa-google"></i> Google</button>  
+                </div>
+                <!-- End Login-->
+              </div>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link js-scroll-trigger nav-sub-item bullet-green-active w-100 text-center">Daftar</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+ 
+  <section class="bg-light mt-20 register-image">
+    <div class="container mt-5">
+        <div class="text-center text-white">
+            <h2>Pendaftaran <strong class="small-brand">Akun</strong></h2>
+            <p class=" text-small text-white">Beberapa langkah lagi untuk menjadi teman di Mahasaku. 
+              Silakan lengkapi informasi dan data-data Anda terlebih dahulu.</p>
+        </div>
+        
+        <div class="row bg-light-v2 pl-5 pr-5 pt-4 pb-4 text-white rounded text-small justify-content-md-center">
+            <div class="text-center stepwizard mb-4 mp-1" style="display: none;">
+                
+                <div class="stepwizard-row setup-panel">
+                    <div class="stepwizard-step">
+                        <a href="#step-1" type="button" class="btn btn-primary btn-circle">1</a>
+                    </div>
+                    <div class="stepwizard-step">
+                        <a href="#step-2" type="button" class="btn btn-light disabled btn-circle" disabled="disabled">2</a>
+                    </div>
+                    <div class="stepwizard-step">
+                        <a href="#step-3" type="button" class="btn btn-light disabled btn-circle" disabled="disabled">3</a>
+                    </div>
+                    <div class="stepwizard-step">
+                        <a href="#step-4" type="button" class="btn btn-light disabled btn-circle" disabled="disabled">4</a>
+                    </div>
+                    <div class="stepwizard-step">
+                        <a href="#step-5" type="button" class="btn btn-light disabled btn-circle" disabled="disabled">5</a>
+                    </div>
+                </div>
+            </div>
+
+            <form id="register-form" class="needs-validation" novalidate>
+            <div class="form-row setup-content" id="step-1">
+            <div class="col-lg-15">
+              
+                <div class="mb-3 form-group has-error">
+                    <label for="name" class="mb-0">Siapa Nama Anda ?</label>
+                      <input type="text" class="form-control" id="name" placeholder="Nama" required value="">
+                      <div class="invalid-feedback">
+                        nama is required.
+                      </div>
+                  </div>
+                
+                <div class="mb-3">
+                      <label for="email" class="mb-0">Alamat Email Anda yang valid ?</label>
+                      <input type="email" class="form-control" id="email" placeholder="anda@mail.com" required>
+                      <div class="invalid-feedback">
+                        Please enter a valid email address for shipping updates.
+                      </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <label for="password" class="mb-0">Buat Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Password" value="" required>
+                    <div class="invalid-feedback">
+                      Valid password is required.
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="konfirmasiPassword" class="mb-0">Konfirmasi Password</label>
+                    <input type="password" class="form-control" id="confPassword" placeholder="Konfirmasi Password"  value="" required>
+                    <div class="invalid-feedback">
+                      Valid Konfirmasi password is required.
+                    </div>
+                  </div>
+                </div>
+                
+                <button class="btn btn-primary nextBtn btn-lg btn-block" type="button" onclick="doRegisterSuccess();">Daftar Sekarang</button>
+             
+            </div>
+            </div>
+ 
+
+            </form>
+          </div>
+
+          
+
+    </div>  
+  </section>
+
+
+  <!-- Modal Help -->
+  <div class="modal fade" id="modalHelp" tabindex="-1" role="dialog" aria-labelledby="modalHelp" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content text-center">
+        <div class="modal-header border-bottom-0">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="closeHelp" onclick="doCloseHelp();">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body pt-0 pb-5">
+            <div class="d-flex justify-content-center"><i class="fa fa-check-circle h1 text-primary"></i></div>
+            <p class="h3 font-weight-bold">Terimakasih!</p>
+            <p class="text-muted pt-3">
+              Pendaftaran anda akan segera kami proses<br/>
+            </p>
+            <a href="index.html"><button type="button"  class="btn btn-info btn-sm pl-5 pr-5 font-weight-bold">Tutup</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <!-- Footer -->
+  <footer class="py-4 bg-dark">
+    <div class="container">
+        <div class="row mx-md-n5">
+            <div class="col-sm m-2">
+                <p class="text-left text-white font-small mb-1"><span class="small-brand">Mahasaku</span><span class="small"> &copy; 2019</span></p>
+                <p class="text-left text-white text-bold mb-0"><b>PT. Akar Kelapa Philosophy</b></span></p>
+                <p class="text-left text-white small mb-0">
+                  Jl. Nangka Raya No.58 C, RT.5/RW.5, Tanjung barat
+                  Kec. Jagakarsa, Kota Jakarta Selatan, DKI Jakarta 12530</span>
+                </p>
+                <p class="text-left text-white small mb-0">
+                <span>phone: <b>+6221435839</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;email: <b>ayonyicil@mahasaku.com</b></span>
+                </p>  
+              </div>
+          </div>
+     </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="library/jquery/jquery.min.js"></script>
+  <script src="library/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="library/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/scrolling-nav.js"></script>
+  <script src="js/step-wizard.js"></script>
+  
+ 
+</body>
+</html>
